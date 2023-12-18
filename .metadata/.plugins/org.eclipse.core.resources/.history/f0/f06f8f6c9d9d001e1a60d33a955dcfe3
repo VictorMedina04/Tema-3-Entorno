@@ -1,0 +1,42 @@
+package clase1;
+
+/**
+ * Clase que implementa una calculadora basica
+ * de números reales
+ * @author Victor Medina Lejeune
+ * 
+ */
+public class metodos {
+	
+	/**
+	 * Metodo que suma dos numeros reales y devuelve la suma de ellos 
+	 * @param a Primer operando
+	 * @param b Segundo operando
+	 * @return Suma de ambos numeros
+	 */
+	
+	public double suma(double a, double b) {
+		return a+b;
+	}
+	
+	/**
+	 * Resta dos parametros entero y devuelve dicha resta
+	 * @param a Primer operando
+	 * @param b Segundo operando
+	 * @return Resta de ambos numeros
+	 */
+	public double resta(double a, double b) {
+		return a-b;
+	}
+	
+	/**
+	 * Calcula el descuento que queremos al precio que indicamos
+	 * @param precio del objeto 
+	 * @param descuento que el usuario quiere poner
+	 * @return el objeto con el precio descontado
+	 */
+	public double descuento(double precio, double descuento) {
+		
+		return precio - precio*descuento/100;
+	}
+}
