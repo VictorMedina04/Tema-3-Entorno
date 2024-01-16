@@ -4,4 +4,5 @@
 /**
  * 
  */
-package estadisticas;
+module EFga {
+}
